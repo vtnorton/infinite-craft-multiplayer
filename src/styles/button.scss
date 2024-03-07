@@ -1,0 +1,21 @@
+.vtn-multiplayer {
+	button {
+		all: unset;
+		margin: 4px;
+		cursor: pointer;
+		padding: 8px 8px 7px;
+		border-radius: 5px;
+		display: inline-block;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+		border: 1px solid #c8c8c8;
+		background: #fff;
+		line-height: 1em;
+
+		&:disabled {
+			background: #ccc;
+			cursor: not-allowed;
+		}
+	}
+}

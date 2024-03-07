@@ -1,0 +1,16 @@
+@import './button.scss';
+@import './neal-fun-adapter.scss';
+
+.vtn-multiplayer {
+	height: 3rem;
+	display: flex;
+	background: #fff;
+	border-bottom: 1px solid #c8c8c8;
+	justify-content: flex-end;
+	padding: 0 .5rem;
+	align-items: center;
+
+	#room-list {
+		height: 40px;
+	}
+}

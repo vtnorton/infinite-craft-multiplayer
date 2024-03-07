@@ -1,0 +1,10 @@
+.particles,
+.sidebar,
+.container {
+	top: 3rem !important;
+}
+
+.nuxt-link-active .site-title,
+.logo {
+	top: calc(3rem + 10px) !important;
+}
