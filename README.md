@@ -22,7 +22,11 @@ You will need to reload the extension in Chrome every time you make changes to t
 
 ## How it works
 
-I've created an insightful blog post about how I created this extension. You can read it [here](/).
+I've created an insightful blog post about how I created this extension. You can read it [here](https://dev.to/vtnorton/how-i-made-infinite-craft-a-multiplayer-game-with-a-few-lines-of-code-4ne7).
+
+## Contributing
+
+Feel free to contribute to this project. You can open an issue or create a pull request.
 
 ## License
 
