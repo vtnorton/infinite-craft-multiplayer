@@ -1,6 +1,6 @@
 # Infinite Craft Multiplayer - Chrome Extension
 
-This is a Chrome extension that adds a multiplayer feature to the game [Infinite Craft](https://neal.fun/infinite-craft/). (this also works in Edge) This extension is not completly functional, just a prove of concept, but it's open to PR and Issues and if Neal (the game developer) wants, a partnership!
+This is a Chrome extension that adds a multiplayer feature to the game [Infinite Craft](https://neal.fun/infinite-craft/). (this also works in Edge) This extension is not completely functional, just a proof of concept, but it's open to PR and Issues and if Neal (the game developer) wants, a partnership!
 
 I've created an insightful blog post about how I created this extension. You can read it [here](https://dev.to/vtnorton/how-i-made-infinite-craft-a-multiplayer-game-with-a-few-lines-of-code-4ne7) and it contains details of what needs to be done, and how stuff was made.
 
