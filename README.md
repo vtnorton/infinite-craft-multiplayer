@@ -23,9 +23,10 @@ Use the same steps as the installation, but instead of using `yarn build`, use `
 
 You will need to reload the extension in Chrome every time you make changes to the code.
 
-## What needs to work
+## Known Issues & What needs to work
 
-- The IDs of the instances can be duplicated because the way the game generates is a sequential one. This means that if someone creates an instance on the Participant-A it will receive an instance-10 id. If a new element by Participant-A is created it will be intance-11. The problema with this is that for every other participant in a room (Participant-B, Participant-C), the extension will create a instance-10 element, but this is not game generated so if any of these participants create a new thing, guess what the id will be? Another instance-10. There are ways to fix this but having a partnership with the developer would be incredible.
+- The IDs of the instances can be duplicated because the way the game generates is a sequential one. This means that if someone creates an instance on Participant-A it will receive an instance-10 id. If a new element by Participant-A is created it will be intance-11. The problem with this is that for every other participant in a room (Participant-B, Participant-C), the extension will create an instance-10 element, but this is not game-generated so if any of these participants create a new thing, guess what the id will be? Another instance-10. There are ways to fix this but having a partnership with the developer would be incredible.
+- When the extension is enabled... when I use other web pages, it won't let me scroll through their content. And I'm not aware why... perhaps because it's loading the CSS on every page hehehe (haven't debugged it yet)
 
 ## Contributing
 
