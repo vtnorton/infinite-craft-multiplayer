@@ -10,11 +10,12 @@ I've created an insightful blog post about how I created this extension. You can
 2. Install the dependencies with `yarn install`
 3. Create a [SuperViz account](https://superviz.com/?origin=infinite-craft) and get your API key
 4. Use the file `env.sample.ts` to create a new file called `env.ts` with your API key
-5. Use the command `yarn build` to build the extension
-6. Open Chrome and go to `chrome://extensions/`
-7. Enable "Developer mode" in the top right corner
-8. Click "Load unpacked" and select the folder `dist` in this repository
-9. Open [Infinite Craft](https://neal.fun/infinite-craft/) and start playing!
+5. Make sure to add `neal.fun` as a whitelist domain on the [SuperViz dashboard](https://dashboard.superviz.com/developer).
+6. Use the command `yarn build` to build the extension
+7. Open Chrome and go to `chrome://extensions/`
+8. Enable "Developer mode" in the top right corner
+9. Click "Load unpacked" and select the folder `dist` in this repository
+10. Open [Infinite Craft](https://neal.fun/infinite-craft/) and start playing!
 
 ## How to develop
 
@@ -22,10 +23,9 @@ Use the same steps as the installation, but instead of using `yarn build`, use `
 
 You will need to reload the extension in Chrome every time you make changes to the code.
 
-## What needs to work 
+## What needs to work
 
 - The IDs of the instances can be duplicated because the way the game generates is a sequential one. This means that if someone creates an instance on the Participant-A it will receive an instance-10 id. If a new element by Participant-A is created it will be intance-11. The problema with this is that for every other participant in a room (Participant-B, Participant-C), the extension will create a instance-10 element, but this is not game generated so if any of these participants create a new thing, guess what the id will be? Another instance-10. There are ways to fix this but having a partnership with the developer would be incredible.
-
 
 ## Contributing
 
