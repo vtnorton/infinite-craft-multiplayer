@@ -39,7 +39,6 @@ export default function MultiplayerHeader() {
 				id: participantId,
 				name: 'Vitor Norton',
 			},
-			environment: 'dev',
 		})
 
 		const whoisonline = new WhoIsOnline({
